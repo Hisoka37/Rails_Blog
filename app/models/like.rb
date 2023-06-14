@@ -1,2 +1,2 @@
- class Like < ApplicationRecord
+class Like < ApplicationRecord
 end
