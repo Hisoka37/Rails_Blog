@@ -1,8 +1,8 @@
 require 'rails_helper'
 
 RSpec.describe Post, type: :model do
-  user = User.create(name: 'Tom', photo: 'https://unsplash.com/photos/F_-0BxGuVvo', bio: 'Software Engineer From Morocco .',
-                     posts_counter: 0)
+  user = User.create(name: 'Tom', photo: 'https://unsplash.com/photos/F_-0BxGuVvo',
+                     bio: 'Software Engineer From Morocco .', posts_counter: 0)
   subject = user.posts.new(title: 'Post 1', text: 'This is post 1', comments_counter: 0, likes_counters: 0)
 
   before { subject.save }
