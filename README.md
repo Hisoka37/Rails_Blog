@@ -44,9 +44,9 @@
 
 ### Key Features <a name="key-features"></a>
 
-- **[Showcase Posts]**
-- **[Add comments]**
-- **[Add likes]**
+- **Showcase Posts**
+- **Add comments**
+- **Add likes**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
