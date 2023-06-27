@@ -1,8 +1,10 @@
 require 'rails_helper'
 
 RSpec.describe 'Users', type: :request do
-  let(:user) { User.create!(name: 'Walid', photo: 'https://unsplash.com/photos/F_-0BxGuVvo',
-     bio: 'Teacher from Morocco.', posts_counter: 0) }
+  let(:user) do
+    User.create!(name: 'Walid', photo: 'https://unsplash.com/photos/F_-0BxGuVvo',
+                 bio: 'Teacher from Morocco.', posts_counter: 0)
+  end
   describe 'GET /index' do
     before(:each) do
       get '/users'

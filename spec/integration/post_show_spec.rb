@@ -65,6 +65,3 @@ RSpec.describe 'Post show page', type: :system do
     end
   end
 end
-
-
- 

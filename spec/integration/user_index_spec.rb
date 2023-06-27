@@ -9,7 +9,8 @@ RSpec.describe 'User page', type: :system do
                             posts_counter: 0)
       @post1 = Post.create!(author: @user1, title: 'Hello', text: 'This is a post', comments_counter: 0,
                             likes_counters: 0)
-      @post2 = Post.create!(author: @user2, title: 'Hello', text: 'This is a post', comments_counter: 0, likes_counters: 0)
+      @post2 = Post.create!(author: @user2, title: 'Hello', text: 'This is a post', comments_counter: 0,
+                            likes_counters: 0)
       @post3 = Post.create!(author: @user1, title: 'Hello', text: 'This is another post', comments_counter: 0,
                             likes_counters: 0)
       @post4 = Post.create!(author: @user2, title: 'Hello', text: 'This is last post', comments_counter: 0,
