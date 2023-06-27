@@ -128,6 +128,11 @@ To run tests, run the following command:
 - Twitter: [@KBwalid9](https://twitter.com/KBwalid9)
 - LinkedIn: [Walid Kabboussa](https://www.linkedin.com/in/walidkb/)
 
+👤 **Kevin Toro**
+- GitHub: [@torobucii](https://github.com/torobucci)
+- Twitter: [@torobucii](https://twitter.com/@torobucii)
+- LinkedIn: [Kevin Toro](https://www.linkedin.com/in/kevin-toro-047181238/)
+
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- FUTURE FEATURES -->
