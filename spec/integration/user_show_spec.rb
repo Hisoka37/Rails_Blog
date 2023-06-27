@@ -72,4 +72,3 @@ RSpec.describe 'User page', type: :system do
     end
   end
 end
-
