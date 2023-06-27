@@ -14,7 +14,6 @@
   - [Install](#install)
   - [Usage](#usage)
   - [Run tests](#run-tests)
-  - [Deployment](#triangular_flag_on_post-deployment)
 - [👥 Authors](#authors)
 - [🔭 Future Features](#future-features)
 - [🤝 Contributing](#contributing)
@@ -112,11 +111,6 @@ To run tests, run the following command:
   rspec
 ```
 
-### Deployment
-
-  - [N/A]
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- AUTHORS -->
 
@@ -127,6 +121,11 @@ To run tests, run the following command:
 - GitHub: [@Hisoka37](https://github.com/Hisoka37)
 - Twitter: [@KBwalid9](https://twitter.com/KBwalid9)
 - LinkedIn: [Walid Kabboussa](https://www.linkedin.com/in/walidkb/)
+
+👤 **Kevin Toro**
+- GitHub: [@torobucii](https://github.com/torobucci)
+- Twitter: [@torobucii](https://twitter.com/@torobucii)
+- LinkedIn: [Kevin Toro](https://www.linkedin.com/in/kevin-toro-047181238/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 

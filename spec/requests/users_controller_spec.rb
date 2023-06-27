@@ -1,6 +1,10 @@
 require 'rails_helper'
 
 RSpec.describe 'Users', type: :request do
+  let(:user) do
+    User.create!(name: 'Walid', photo: 'https://unsplash.com/photos/F_-0BxGuVvo',
+                 bio: 'Teacher from Morocco.', posts_counter: 0)
+  end
   describe 'GET /index' do
     before(:each) do
       get '/users'
@@ -22,7 +26,7 @@ RSpec.describe 'Users', type: :request do
 
   describe 'GET /show' do
     before(:each) do
-      get '/users/1'
+      get "/users/#{user.id}"
     end
 
     it 'returns http success' do
@@ -34,7 +38,7 @@ RSpec.describe 'Users', type: :request do
     end
 
     it 'includes the details of a user' do
-      expect(response.body).to include('User')
+      expect(response.body).to include('Teacher from Morocco')
     end
   end
 end
