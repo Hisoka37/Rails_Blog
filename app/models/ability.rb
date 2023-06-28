@@ -12,5 +12,4 @@ class Ability
       can :destroy, Comment, user_id: user.id # User can delete their own comments
     end
   end
-  end
 end
