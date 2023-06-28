@@ -12,7 +12,10 @@
  *
  *= require_tree .
  *= require_self
+ 
  */
+ /* eslint-disable */
+ 
 .user-field{
     display: flex;
     flex-direction: column;
